@@ -1,0 +1,24 @@
+.bottom-margin {
+  margin-bottom: 2rem;
+}
+
+.scanning {
+  display: none;
+}
+
+.scanned-street {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
+.scanned-zipcode {
+}
+
+.consumed-account {
+  text-decoration: line-through;
+}
+
+.invalid-account {
+  color: #dc3545;
+  font-weight: 700;
+}

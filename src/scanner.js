@@ -1,4 +1,3 @@
-const { program } = require('commander');
 const { shuffle } = require('lodash');
 
 const db = require('./db');

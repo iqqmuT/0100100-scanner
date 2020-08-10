@@ -1,5 +1,6 @@
 const express = require('express');
 const { fork } = require('child_process');
+const open = require('open');
 
 const port = 3000;
 const app = express();
@@ -63,6 +64,10 @@ app.get('/data', (req, res) => {
 app.use(express.static('ui'));
 
 // start http server
-app.listen(port, () => {
-  console.log(`Open this address with your browser: http://localhost:${port}`);
+app.listen(port, async () => {
+  const url = `http://localhost:${port}`;
+  console.log(`Open this address with your browser: ${url}`);
+
+  // Open URL automatically in the default browser
+  open(url);
 });
