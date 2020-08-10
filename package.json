@@ -1,0 +1,24 @@
+{
+  "name": "0100100-scanner",
+  "version": "1.0.0",
+  "description": "A tool to make automated searches on 0100100",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iqqmuT/0100100-scanner.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iqqmuT/0100100-scanner/issues"
+  },
+  "homepage": "https://github.com/iqqmuT/0100100-scanner#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "lodash": "^4.17.19",
+    "puppeteer": "^5.2.1"
+  }
+}
