@@ -197,7 +197,7 @@ async function runSession(accounts, zipcodes) {
           break;
         }
 
-        if (state.running && !result.error) {
+        if (state.running && (!result.error || result.error.noResults)) {
           // save results only if there was no errors
           if (i === streets.length - 1) {
             // zip code scanned completely

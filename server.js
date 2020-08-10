@@ -66,8 +66,10 @@ app.use(express.static('ui'));
 // start http server
 app.listen(port, async () => {
   const url = `http://localhost:${port}`;
-  console.log(`Open this address with your browser: ${url}`);
+  console.log(`Opening address with your default browser: ${url}`);
 
   // Open URL automatically in the default browser
   open(url);
+
+  console.log('You can quit this program by Ctrl-C');
 });
