@@ -1,5 +1,7 @@
 # 0100100 Scanner
 
+![version](https://img.shields.io/github/package-json/v/iqqmuT/0100100-scanner)
+
 A tool to make automated searches from 0100100 service.
 
 ## Setup
