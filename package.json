@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/iqqmuT/0100100-scanner.git"
   },
-  "author": "",
+  "author": "Tuomas Jaakola <tuomas.jaakola@iki.fi>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/iqqmuT/0100100-scanner/issues"
@@ -21,5 +21,6 @@
     "lodash": "^4.17.19",
     "open": "^7.1.0",
     "puppeteer": "^5.2.1"
-  }
+  },
+  "private": true
 }
