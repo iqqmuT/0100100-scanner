@@ -16,7 +16,9 @@ async function getStreets(zipcode) {
       .children[0]
       .children;
     for (let i = 1; i < rows.length; i++) {
-      const street = rows[i].children[0].children[0].innerText.trim();
+      // get street name from 1st column
+      const street = rows[i].children[0].innerText.trim();
+      // get city from 3th column
       const city = rows[i].children[2].innerText.split(' ')[1].trim();
       streets.push({
         street: street,
