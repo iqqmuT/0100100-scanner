@@ -1,6 +1,6 @@
 {
   "name": "0100100-scanner",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A tool to make automated searches on 0100100",
   "main": "index.js",
   "scripts": {
