@@ -109,8 +109,8 @@ const isWrongPhone = (phone) => {
 
 function filterInteresting(results) {
   return results.filter(result => !result.isCompany
-    && !isCompanyName(result.name)
-    && !isWrongPhone(result.phone)
+    && result.name && !isCompanyName(result.name)
+    && result.phone && !isWrongPhone(result.phone)
     && !isExcludedName(result.name)
   );
 }
